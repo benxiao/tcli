@@ -1,8 +1,8 @@
 # tcli
-turn any of your python module into a cli tool
-save your chores to turn your functions into cli tool with library like click in most caes.
+* turn any of your python module into a cli tool
+* save your chores to turn your functions into cli tool with library like click in most caes.
 
-## usecase
+## Usecases
 ### execute a function in a module
 ```
 python tcli.py funcs.py add 23 90
