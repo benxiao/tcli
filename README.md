@@ -13,7 +13,7 @@ python tcli.py funcs.py show
 ```
 ### show args of a function in a module
 ```
-python tcli.py funcs.py args 
+python tcli.py funcs.py args <add | n_hello>
 ```
 ### execute a function with optional args
 ```
