@@ -21,6 +21,8 @@ def show(module):
 
 def run():
     import sys
+    if len(sys.argv) < 3:
+        raise ValueError("arg0 is <script>.py, arg1 is <func>")
     module_path = sys.argv[1]
     module_function_name = sys.argv[2]
     command_args = sys.argv[3:]

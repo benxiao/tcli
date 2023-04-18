@@ -5,18 +5,18 @@
 ## Usecases
 ### execute a function in a module
 ```
-python tcli.py funcs.py add 23 90
+unclick funcs.py add 23 90
 ```
 ### show all function names in a module
 ```
-python tcli.py funcs.py show
+unclick funcs.py show
 ```
 ### show args of a function in a module
 ```
-python tcli.py funcs.py args <add | n_hello>
+unclick funcs.py args <add | n_hello>
 ```
 ### execute a function with optional args
 ```
-python tcli.py funcs.py n_hello --x 10
+unclick funcs.py n_hello --x 10
 
 ```
